@@ -1,4 +1,7 @@
-
+'''{% assets "main_js" %}
+<script type="text/javascript" src="{{ ASSET_URL }}"></script>
+{% endassets %}
+'''
 	'''
 	engine = pyttsx3.init()
 	rate = engine.getProperty('rate')   # getting details of current speaking rate
